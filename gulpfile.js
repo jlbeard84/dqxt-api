@@ -22,4 +22,6 @@ gulp.task("data", () => {
         .pipe(gulp.dest("dist/data"));
 });
 
+gulp.task("build", ["scripts", "data"]);
+
 gulp.task("default", ["watch", "data"]);
