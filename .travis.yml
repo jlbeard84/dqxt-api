@@ -1,0 +1,9 @@
+branches:
+  only:
+    - master
+    - dev
+before_install:
+- npm install
+- npm test
+script: 
+- gulp 

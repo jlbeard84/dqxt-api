@@ -1,0 +1,22 @@
+ {
+    "groupings": [
+    [
+      { "originalText": "はなす", "translatedText": "Release", "subMenus": {
+        "groupings": [[
+          { "originalText": "あああ", "translatedText": "AAA", "subMenus": null},  
+          { "originalText": "ううう", "translatedText": "UUU", "subMenus": null},
+          { "originalText": "おおお", "translatedText": "OOO", "subMenus": null}
+        ]]
+      }}, 
+      { "originalText": "どうぐ", "translatedText": "How", "subMenus": null},
+      { "originalText": "そうび", "translatedText": "Love", "subMenus": null},
+      { "originalText": "つよさ", "translatedText": "Strength", "subMenus": null}
+    ],
+    [
+      { "originalText": "じゅもん", "translatedText": "Jun", "subMenus": null}, 
+      { "originalText": "せんれき", "translatedText": "Distess", "subMenus": null},
+      { "originalText": "しちべる", "translatedText": "To Eat", "subMenus": null},
+      { "originalText": "さくせん", "translatedText": "Sakusen", "subMenus": null}
+    ]
+  ]
+}
