@@ -3,6 +3,7 @@ branches:
     - master
     - dev
 before_install:
+- npm install -g gulp
 - npm install
 - npm test
 script: 
