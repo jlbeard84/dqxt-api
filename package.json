@@ -4,6 +4,7 @@
   "description": "Webservices to deliver data for Dragon Quest X Assistant",
   "main": "index.js",
   "scripts": {
+    "prestart": "gulp build",
     "start": "node dist/index.js",
     "test": "mocha --reporter spec --compilers ts:ts-node/register test/**/*.test.ts"
   },
