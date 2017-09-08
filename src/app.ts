@@ -4,6 +4,7 @@ import * as logger from "morgan";
 import * as bodyParser from "body-parser";
 
 import MenuRouter from "./routes/menu.router";
+import MenuTypeRouter from "./routes/menu-type.router";
 
 class App {
 
@@ -23,7 +24,7 @@ class App {
 
     private routes(): void {
         let router = express.Router();
-
+        this.express.use("/api/menu-type", MenuTypeRouter);
         this.express.use("/api/menu", MenuRouter);
     }
 }
