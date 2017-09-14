@@ -1,5 +1,6 @@
 [
     { 
+        "description": "Main menu while playing",
         "displayName": "Main Menu",
         "menu": "main-menu"
     }
