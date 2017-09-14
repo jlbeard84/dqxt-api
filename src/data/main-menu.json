@@ -3,7 +3,12 @@
     [
       { "originalText": "はなす", "translatedText": "Release", "subMenus": {
         "groupings": [[
-          { "originalText": "あああ", "translatedText": "AAA", "subMenus": null},  
+          { "originalText": "あああ", "translatedText": "AAA", "subMenus": {
+            "groupings": [[
+              { "originalText": "ううう", "translatedText": "UUU", "subMenus": null},
+              { "originalText": "おおお", "translatedText": "OOO", "subMenus": null}
+            ]]
+          }},  
           { "originalText": "ううう", "translatedText": "UUU", "subMenus": null},
           { "originalText": "おおお", "translatedText": "OOO", "subMenus": null}
         ]]
